@@ -1,0 +1,23 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+img {
+    width: 20%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    text-align: center;
+}

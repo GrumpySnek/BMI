@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmicalc.css">    
+</head>
+<body>
+
+    <h1>BMI Calculator</h1>
+
+    <p>This is a very simple BMI Calculator following formula</p>
+    <img src="assets/bmiformula.png" alt="formula of BMI: weight over height squared">
+
+    <br>
+    <br>
+    <br>
+    <div>
+
+        <label for="weight">Weight (in kg): </label>
+        <input type="number" id="weight" name="weight" placeholder=65>
+        <br>
+        <br>
+        <label for="height">Height (in m): </label>
+        <input type="number" id="height" name="height" step="0.1" placeholder=1.8>
+        <br>
+        <br>
+        <button id="calculate">Calculate</button>
+    </div>
+
+    <p id="bmiresult">Enter information above to find out your BMI</p>
+    <p id="meaning">Once you calculate your BMI, you will find out what range you are in.</p>
+
+<script src="bmicalc.js"></script>
+</body>
+</html>
